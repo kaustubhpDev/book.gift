@@ -4,13 +4,13 @@ function Navbar() {
   return (
     <div className="navbar">
     <div className="logo">
-      <h1>Book.gift</h1>
+      <h1>Book.gift 📕</h1>
 
     </div>
     <div className="nav-links">
       <h2 className="nav-item">About us</h2>
       <h2 className="nav-item">Testimonials</h2>
-      <button className="nav-item">Get Started </button>
+      <button className="nav-item get-started-button">Get Started 🚀</button>
 
     </div>
 

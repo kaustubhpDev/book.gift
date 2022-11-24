@@ -1,0 +1,17 @@
+.hero{
+    display:flex;
+    background-color: blue;
+    justify-content: space-between;
+}
+.hero-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left:5%;
+}
+.illustration-hero-image{
+    height: 70%;
+    
+
+}

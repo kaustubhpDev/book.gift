@@ -2,11 +2,56 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    height: 70px;
+    width:70%;
+    margin-left: 15%;
+    margin-top:1%;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
 .nav-links{
     display: flex;
     margin-right: 20px;
+    font-family: Montserrat;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
 }
 .nav-item{
-padding-right: 20px}
+font-size: large;
+color: #2B2D42;
+}
+
+.logo{
+    font-family: Montserrat;
+    font-size: small;
+    margin-left:15px;
+    color :#D90429;
+}
+    
+
+.get-started-button {
+  display: flex;
+  background:#2B2D42 ;
+  color: #EDF2F4;
+  border: 1px solid #2B2D42;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+.get-started-button:hover,
+.get-started-button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #2B2D42;
+}
+
+.get-started-button:active {
+  opacity: .5;
+}
