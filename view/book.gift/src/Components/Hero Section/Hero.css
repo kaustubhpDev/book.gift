@@ -1,60 +1,72 @@
-.hero{
-    display:flex;
-    justify-content:space-around;
-    margin-top:20px;
-    margin-right: 2%;
-    margin-left:2%;
-    background-color: whitesmoke;
-    border-radius: 15px;
-   
-    
+.hero {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+  background-color: whitesmoke;
+  border-radius: 15px;
 }
-.hero-text-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-left:3%;
-    margin-top:5%;
-    flex-wrap: wrap;
-    position: relative;
-    
+.hero-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 3%;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  position: relative;
 }
-.illustration-hero-image{
-    height: 70%;
-    margin-top:5%;
-    
+.illustration-hero-image {
+  height: 60%;
+  margin-top: 6%;
+  margin-left: 15%;
+  border: 2px solid #000;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 3px 4px 0px 1px #000;
 }
-.illustration-hero{
-    text-align: center;
+.illustration-hero {
+  text-align: center;
+  transform: rotate(-5deg);
 }
-.text-content-head{
-    font-weight: 700;
-    font-size :40px;
-    color:#2B2D42;
-    padding-right:200px;
+.text-content-head {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+  padding-right: px;
 }
-.text-content-mid{
-    margin-top: -5px;
-    color: #8D99AE;
-    font-weight: 500;
-    font-size: 20px;
+.text-content-mid {
+  margin-top: -5px;
+  color: #8d99ae;
+  font-weight: 500;
+  font-size: 20px;
 }
-.text-content-low{
-    margin-top: -20px;
-    color:#8D99AE;
-    font-weight: 500;
-    font-size: 20px;
+.text-content-low {
+  margin-top: -20px;
+  color: #8d99ae;
+  font-weight: 500;
+  font-size: 20px;
 }
-.start-my-page-button{
-    background:#2B2D42 ;
-  color: #EDF2F4;
-  border: 1px solid #2B2D42;
-  border-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+.start-my-page-button {
+  background: #d90429;
+  color: #000;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #000;
+  box-shadow: 3px 4px 0px 1px #000;
   height: 45px;
-  width: 30%;
+  width: auto;
   font-size: large;
   font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.start-my-page-button:hover {
+  background-color: white;
+  color: black;
 }
 
+.start-my-page-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
