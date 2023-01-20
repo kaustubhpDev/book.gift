@@ -5,6 +5,8 @@ import SignupForm from "./Components/Signup/SignupForm";
 function App() {
   return (
     <div className="App ">
+      {/* <Navbar />
+      <Hero /> */}
       <SignupForm />
     </div>
   );
